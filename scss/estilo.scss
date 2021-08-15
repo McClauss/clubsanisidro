@@ -1,0 +1,72 @@
+@import 'header';
+@import 'nav';
+@import 'hero';
+@import 'section';
+@import 'footer';
+
+
+/**
+* Template Name: Selecao - v2.3.1
+* Template URL: https://bootstrapmade.com/selecao-bootstrap-template/
+* Author: BootstrapMade.com
+* License: https://bootstrapmade.com/license/
+* Modificado por: Claudio Hernández
+* Fecha Modificacion: 2021-08-14
+*/
+
+/*Estructura General de la Pagina*/
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+}
+
+a {
+    color: #ef6603;
+
+    &:hover{
+        color: #fc8129;
+        text-decoration: none;
+    }
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway", sans-serif;
+}
+
+/*Botón de Regreso al Inicio*/
+.back-to-top {
+    position: fixed;
+    display: none;
+    right: 15px;
+    bottom: 15px;
+    z-index: 99999;
+
+    i{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 24px;
+        width: 40px;
+        height: 40px;
+        border-radius: 50px;
+        background: #11A4AA;
+        color: #fff;
+        transition: all 0.4s;
+
+        &:hover{
+            background: #14D0D7;
+            color: #fff;
+        }
+    }
+}
+
+/*Fin Botón de Regreso al Inicio*/
+
+/*Deshabilita delay de AOS en Mobile*/
+@media screen and (max-width: 768px) {
+    [data-aos-delay] {
+      transition-delay: 0 !important;
+    }
+  }
+
+/*Fin Deshabilita deñay de AOS en Mobile*/
+/*Fin Estructura General de la Pagina*/

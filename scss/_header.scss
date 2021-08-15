@@ -1,0 +1,44 @@
+/*Header*/
+
+#header{
+    height: 70px;
+    transition: all 0.5s;
+    z-index: 997;
+    transition: all 0.5s;
+    background: rgba(42, 44, 57, 0.9);
+
+    .header-transparent{
+        background: transparent;
+    }
+    .header-scrolled {
+        background: rgba(42, 44, 57, 0.9);
+    }
+    .logo{
+        h1{
+            font-size: 28px;
+            margin: 0;
+            padding: 0;
+            line-height: 1;
+            font-weight: 700;
+            letter-spacing: 1px;
+            font-family: 'Amatic SC', cursive;
+
+
+            a{
+                color: #fff;
+                text-decoration: none;
+
+                &:hover{
+                    color: #fff;
+                    text-decoration: none;
+                }
+            }
+        }
+
+        img{
+            padding: 0;
+            margin: 0;
+            max-height: 60px;
+        }
+    }
+}
